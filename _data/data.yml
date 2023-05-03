@@ -26,7 +26,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://api.pdflayer.com/api/convert?access_key=c77a6e3600af0c2afa9a28e323541555&document_url=https://mikaelmorvan.github.io/resume/print&document_name=mikael-morvan-resume.pdf
+    pdf: https://mikaelmorvan.github.io/resume/assets/pdf/mikael-morvan-resume.pdf
 
     languages:
       title: Languages
