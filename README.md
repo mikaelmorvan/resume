@@ -2,6 +2,10 @@
 
 This site is my resume in a web page.
 
+Open the url [https://mikaelmorvan.github.io/resume/](https://mikaelmorvan.github.io/resume/) to see it.
+
+# Summary
+
 I'm Mikaël Morvan, I'm an experienced R&D manager / CTO, Cloud Architect and DevOps.
 
 I've lead R&D teams and I've implemented Kubernetes projects on Google cloud, Amazon Web services and on Baremetal (k3s, Rancher).
@@ -45,6 +49,6 @@ I've lead R&D teams and I've implemented Kubernetes projects on Google cloud, Am
 
       Do not hesitate to call upon my services and my experience.
 
-Open the url [https://mikaelmorvan.github.io/resume/](https://mikaelmorvan.github.io/resume/) to see it.
+# Kudos
 
 Forked from https://github.com/sharu725/online-cv, thanks for his work.
