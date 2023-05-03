@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: m (at) morvan.consulting
+    email: mikaelmorvan (at) gmail (dot) com
     # phone: 
     # timezone: Paris / France Timezone
     # citizenship: French
@@ -26,7 +26,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://api.pdflayer.com/api/convert?access_key=c77a6e3600af0c2afa9a28e323541555&document_url=https://mikaelmorvan.github.io/resume/
+    pdf: http://api.pdflayer.com/api/convert?access_key=c77a6e3600af0c2afa9a28e323541555&document_url=https://mikaelmorvan.github.io/resume/print
 
     languages:
       title: Languages
