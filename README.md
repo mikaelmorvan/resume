@@ -1,84 +1,50 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+# Mikael Morvan Resume
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
+This site is my resume in a web page.
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+I'm Mikaël Morvan, I'm an experienced R&D manager / CTO, Cloud Architect and DevOps.
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+I've lead R&D teams and I've implemented Kubernetes projects on Google cloud, Amazon Web services and on Baremetal (k3s, Rancher).
 
-## Installation
+      My expertise:
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository
-* Go to settings and set master branch as Github Pages source.
-* Your new site should be ready at `https://<username>.github.io/online-cv/`
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
+      - R&D management
 
-Change all the details from one place: ``_data/data.yml``
+        - Team management
+        - Technical definition & architecture
+        - Business development
+        - Marketing strategy
 
-## To preview/edit locally with docker
+      - Definition, monitoring and implementation of your cloud architecture from A to Z
 
-```sh
-docker-compose up
-```
+        - Kubernetes (helm, kustomize)
+        - Baremetal linux
+        - micro-services
+        - serverless
+        - Traefik
 
-*docker-compose.yml* file is used to create a container that is reachable under http://localhost:4000.
-Changes *_data/data.yml* will be visible after a while.
+      - Integration and continuous deployment
 
-### Local machine
+        - Docker image generation and storage on Gitlab
+        - Writing and deployment of Ansible scripts
+        - Writing and deployment of Terraform scripts
+        - Writing and deploying Pulumi scripts
+        - GitOps deployment with ArgoCD
 
-* Get the repo into your machine 
-```bash
-git clone https://github.com/sharu725/online-cv.git
-```
-* Install required ruby gems
-```bash
-bundle install
-```
-* Serve the site locally
-```bash
-bundle exec jekyll serve
-```
-* Navigate to `http://localhost:4000`
+      - Development in Go, Java, Typescript, Javascript
 
+        - micro, beego, fiber
+        - Spring,
+        - React, Angular, VueJS
 
-## Skins
+      I was for 5 years the CEO of a startup called ZetaPush specialized in providing real-time cloud services (SaaS). I have therefore a huge expertise in complex architectures and their implementation in production.
 
-There are 6 color schemes available:
+      I can help you to define your needs or to adapt your existing to integrate the cloud and CI-CD dimension.
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
+      I can make you benefit from my experience as a project creator to advise you from the ideation phase.
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+      Do not hesitate to call upon my services and my experience.
 
-## Credits
+Open the url [https://mikaelmorvan.github.io/resume/](https://mikaelmorvan.github.io/resume/) to see it.
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
-
+Forked from https://github.com/sharu725/online-cv, thanks for his work.
