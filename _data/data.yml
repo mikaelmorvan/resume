@@ -3,27 +3,26 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Mikaël Morvan
+    tagline: CTO, Cloud Architect, DevOps
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: m@morvan.consulting
+    # phone: +33 6 62 18 33 96
+    # timezone: Paris / France Timezone
+    # citizenship: French
+    website: morvan.consulting #do not add http://
+    linkedin: mikaelmorvan
+    github: mikaelmorvan
     telegram: # add your nickname without '@' sign
-    gitlab:
+    gitlab: mikaelmorvan
     bitbucket:
-    twitter: '@webjeda'
+    # twitter: '@mikaelmorvan'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -32,22 +31,19 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: French
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Computer Science
           link:
 
-        - item: Snowboarding
+        - item: Geek Culture
           link:
 
         - item: Cooking
@@ -56,159 +52,460 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      I'm Mikaël Morvan, I'm an experienced R&D manager / CTO, Cloud Architect and DevOps. I've lead R&D teams and I've implemented Kubernetes projects on Google cloud, Amazon Web services and on Baremetal (k3s, Rancher).
+
+      My expertise:
+
+      - R&D management
+
+        - Team management
+        - Technical definition & architecture
+        - Business development
+        - Marketing strategy
+
+      - Definition, monitoring and implementation of your cloud architecture from A to Z
+
+        - Kubernetes (helm, kustomize)
+        - Baremetal linux
+        - micro-services
+        - serverless
+        - Traefik
+
+      - Integration and continuous deployment
+
+        - Docker image generation and storage on Gitlab
+        - Writing and deployment of Ansible scripts
+        - Writing and deployment of Terraform scripts
+        - Writing and deploying Pulumi scripts
+        - GitOps deployment with ArgoCD
+
+      - Development in Go, Java, Typescript, Javascript
+
+        - micro, beego, fiber
+        - Spring,
+        - React, Angular, VueJS
+
+      I was for 5 years the CEO of a startup called ZetaPush specialized in providing real-time cloud services (SaaS). I have therefore a huge expertise in complex architectures and their implementation in production.
+
+      I can help you to define your needs or to adapt your existing to integrate the cloud and CI-CD dimension.
+
+      I can make you benefit from my experience as a project creator to advise you from the ideation phase.
+
+      Do not hesitate to call upon my services and my experience.
+# education:
+#     title: Education
+#     info:
+#       - degree: MSc in Computer Science
+#         university: University of London
+#         time: 2011 - 2012
+#         details: |
+#           Describe your study here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#           sociis natoque penatibus et magnis dis parturient montes, nascetur
+#           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#           pretium quis, sem.
+#             - Bullet point
+#             - Bullet point
+#       - degree: BSc in Applied Mathematics
+#         university: Bristol University
+#         time: 2007 - 2011
+#         details: |
+#           Describe your study here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#           sociis natoque penatibus et magnis dis parturient montes, nascetur
+#           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#           pretium quis, sem.
+#             - Bullet point
+#             - Bullet point
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: R&D Manager
+        time: 2022 - Present
+        company: Acklio (Rennes, France)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Full time mission in a startup in the field of IoT. Acklio provides a embeded SDK for IoT devices to compress data before sending them on Lpwan networks. Acklio also provides a cloud solution to manage devices and decompress data.
+
+          Runtime on Kubernetes clusters on AWS, Gitlab for CI-CD, Infra as code.
+
+          My main mission was to manage the R&D team and to define the technical roadmap.
+
+          - Management of a team of 11 developers
+            - Cloud team (4)
+            - Embedded team (5)
+            - Interns (2)
+          - Definition of the technical roadmap
+          - Definition of the technical architecture
+
+            - Enhancements of the existing architecture to have a fully scalable and resilient architecture
+            - Add 2 new products to the existing architecture to provide new services to our customers
+            - Add a new compression protocol based on ZStandard
+
+          - Definition of the development methodology
+            - remove Jira and remplce it with Clickup
+          - Definition of the test strategy
+            - add full integration tests with Playwright
+          - Definition of the monitoring strategy
+            - add a monitoring with Datadog
+          - Definition of the documentation strategy
+            - add a documentation with Confluence
+          - Definition of the support strategy
+            - add a support with Clickup
+
+          Marketing & Business strategy
+
+          - Elaboration of the marketing and business strategy following the addition of new products
+          - Participation in international trade shows (MWC Barcelona, Distributech San Diego, etc.)
+
+          *Technology used*
+
+          - Kubernetes
+          - AWS
+          - Gitlab
+          - Terraform
+          - Scaleway
+          - Go
+          - Typescript
+          - React
+          - Clickup
+          - Confluence
+          - Datadog
+          - Playwright
+
+      - role: DevOps, Cloud Architect
+        time: 2021 - 2022
+        company: Novadiscovery, (Lyon, France)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Full remote mission with occasional trips to Lyon
+
+          Runtime on Kubernetes clusters on AWS, Gitlab for CI-CD, Infra as code
+          
+          CI-CD chain
+
+          - Existing GitOps audit
+          - Improvement of the Ansible / Helm / Kustomize / Gitlab scripts for deploying the different environments
+          - Proposal of a new architecture using Pulumi with storage of states on S3
+          - Implementation of Datadog for log management with dedicated dashboards and alerting
+          - Implementation of dedicated Gitlab Runners on physical servers with optimization of Npm builds using a pnpm cache
+
+          Security
+
+          - Audit of authorization management / secret management and redesign using Hashicorp Vault and AWS Kms / IAM
+          - Implementation of security audit of containers and api (Gitlab, OWASP ZAP, Trivy)
+          - Study of the implementation of audit bug bounty with YesWeHack
+
+          Simulation engine on Kubernetes
+
+          - Creation of simulation test system (Docker Compose / Airtable / Datadog)
+          - Writing performance tests and hardening tests
+          - Launching simulation tests via Gitlab CI
+          - Audit / help to the developer to improve performance
+          - Implementation of recommendations (Workers XXL, Autoscalability)
+
+          *Technology used*
+
+          - DevOps
+          - AWS
+          - Kubernetes
+          - Gitlab
+          - Hashicorp Vault
+          - Pulumi
+          - Datadog
+          - Ansible
+      - role: Cloud Architect, DevOps
+        time: 2020-2021
+        company: Moonda, (Bordeaux, France)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          Existing CMS audit
+          API gateway audit (Traefik)
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+          - stability
+          - scalability
+          - security
+            Optimization of the CI-CD chain on Gitlab
+            Optimization of LetsEncrypt wildcard certificates usage
+            Porting GKE on GCP to OVH Kubernetes offer.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+          *Technology used*
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+          - DevOps
+          - GCP
+          - Kubernetes
+          - Gitlab
+          - Traefik
+          - Ansible
+          - Nginx
+      - role: Cloud Architect, DevOps
+        time: Sept 2020- Oct 2020
+        company: ScaleDynamics, (Rennes, France)
+        details: |
+          The mission consisted in setting up a build chain for a source code
+            in NodeJs on Google Cloud Build.
+          - study, advice on Google Cloud Build
+          - creation of a configuration generator (Docker File, Conf Nginx, ...) in
+            NodeJs
+          - realization of a Docker image of the generator and deposit on Google Cloud
+            Registry
+          - implementation of a build chain on Google Cloud Build with
+            automatic launch of the generator as a build step
+          - demonstration of the automatic launch by API call.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          *Technology used*
+          - DevOps
+          - GCP
+          - Google Cloud Build
+          - Docker
+          - NodeJs
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - role: Cloud Architect, DevOps
+        time: July 2020 - August 2020
+        company: Mobistock, (Rennes, France)
+        details: |
+          - Understanding of the need
+          - Definition of the target architecture
+          - Containerization of Php-Mysgl application (Api Platform)
+          - Continuous integration on Gitlab
+          - Realization of Helm / Kustomize deployment scripts
+          - Kubernetes cluster setup
+          - Client exchanges, Php code debugging
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+          *Technology used*
+          - DevOps
+          - Kubernetes
+          - Gitlab
+          - Helm
+          - Kustomize
+          - Api Platform
+          - Php
+      - role: CEO - Founder
+        time: 2015 - 2019
+        company: ZetaPush, (Rennes, France)
+        details: |
+          ZetaPush, Startup - Real time application engine
+          - Company manager
+            - Team management (12 people),
+            - Company management (accounting, finance, HR, ...)
+            - Project, budget and business plan preparation
+            - Project pitch
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          - Architect Serverless deployment on Kubernetes
+            - K8S Rancher Cluster
+            - Helm templates
+            - Continuous & seamless deployment
+            - Backend As A Service Architecture 
+            - High availability real time servers
+            - Bare Metal Servers
+            - Angular Dashboard
+            - Connection SDK Javascript, Go, Swift
+            - WebRTC SDK Javascript, Android, Swift
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+          *Technology used*
+          - DevOps
+          - Kubernetes
+          - Rancher
+          - Helm
+          - Kustomize
+          - Angular
+          - WebRTC
+          - Javascript
+          - Go
+          - Swift
+          - Java Spring
+          - HBase
+          - Jetty
+            
+      - role: Web Architect
+        time: 2010 - 2014
+        company: France Telecom / Orange, (Rennes, France)
+        details: |
+          Architect appsbar.sosh.fr
+          Design of the global architecture
+          Backend development: Java / HBase noSQL / Jetty / Spring 3 Development team follow-up
+          Android Hybrid Mobile Application Architect Global architecture design
+          Techno Dojo / Phonegap / Android
+          Follow-up of the development team
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+          IM (Instant Messaging) prototype architect with Web and Smartphone clients Global architecture design
+          Techno Backend Java / CometD / Xmpp / Jetty / Spring 3
+          Techno Frontend Dojo / PhoneGap / Android / iPhone
+          Messaging Suite Architect
+          Expertise, development follow-up, technical expert
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+          *Technology used*
+          - Java Spring
+          - HBase
+          - Jetty
+          - Dojo
+          - Phonegap
+          - Android
+          - iPhone
+      - role: Web Architect - Technical Leader
+        time: 2007 - 2010
+        company: SII, (Rennes, France)
+        details: |
+          Orange Rennes
+          Architect on the Messaging Suite (Orange WebMail) 
+          - Architecture,
+          - Expertise
+          Sofrecom (France Telecom) Paris-Maroc Expert, Web 2.0 Architect
+          Expertise:
+          - Audit of the existing struts code,
+          - Audit of the javascript code developed in Morocco,
+          - Recommendations on good development practices, - Performance audit and advice on how to optimize them,
+          - Help to the developers on the blocking points,
+          Consulting:
+          - Study of the transition from a Struts architecture to a Full Web 2.0 architecture
+
+          Orange R&D Lannion
+          Expert, Web 2.0 Architect
+          Consulting and implementation of Dojo-OAF in an existing Struts- EJB architecture.
+          Expertise:
+          - Study of the existing architecture,
+          - Consulting for the implementation of Dojo-OAF (splitting in Widgets, data islands on Struts side),
+          - Consulting for the implementation of inter-team exchanges based on extreme programming (Lannion, Paris, Rabat),
+          - Helping with the integration of Widgets in existing pages,
+          - Realization of an optimization script of the Dojo-OAF library allowing to drastically reduce loading times.
+          Training:
+          - Training of Moroccan developers on Dojo-OAF jointly with Orange OAF trainer.
+          Development:
+          - Development of Dojo-OAF widgets    
+
+          *Technology used*
+          - Javascript
+          - Dojo
+
+      - role: Architect
+        time: 2006 - 2007
+        company: ATOS, (Rennes, France)
+        details: |          
+          Orange Billing.
+          * Addition of new processing services in Java J2EE,
+          * Correction of issues on existing processing,
+          * Creation of an expert software allowing the fast reading of XML exchange files,
+          * Study of the performance of the application using JProbe.
+          
+          *Technology used*
+          - Eclipse, 
+          - CVS, 
+          - Weblogic, 
+          - Java/J2EE, 
+          - Oracle, 
+          - HPUx
+      - role: Project manager, technical expert
+        time: 2001 - 2006
+        company: Silicomp AQL/ OBS, (Rennes, France)
+        details: |
+          Creation of an antenna propagation simulation software for TDF
+          * The application allows to simulate the radiation of the electromagnetic field emitted by an antenna structure. This simulation is done both in analog and digital (case of DTT). The result of the simulation is visualized in horizontal, vertical and 3 dimensional diagrams (OpenGL). Many software experts have been added to meet the very specific needs of TDF engineers. For example, this software is the only one capable of calculating antenna propagation for DTT. About 200 copies of this application are deployed for TDF engineers as well as in foreign subsidiaries.
+          * Specification and design of the application.
+          * Project manager of the project team (4 people) and Technical Manager.
+          Numerous business experts have been developed:
+          * Expert allowing the technical drawing of the pylons in the Autocad genre,
+          * Expert allowing the numerical optimization of curves based on simulated annealing algorithm,
+          * Expert allowing the realization of template from calculated curves,
+          * Expert allowing the realization of curves from templates (choice of algorithms based on Bezier curves, Spline, Polynomial of configurable degrees and smoothing by Fourier transform FFT),
+          * Expert allowing the realization and visualization of the assembly of the pylons based on visual components in the Visio genre:
+          * Numerical calculations on the realized tree,
+          * Simulation of the propagation,
+          * Computation of statistics between theoretical and real pylons
+          * Expert simulating the power distribution necessary to supply a tower
+          * 6 months of work,
+          * Algorithm based on the enumeration of all possible junction assemblies (in On )
+          * Estimation before calculation allowing to limit the calculations (several weeks of possible calculation time) Translated with www.DeepL.com/Translator (free version)
+
+          *Technology used*
+          - Delphi
+          - OpenGL
+          - Numerical optimization
+      - role: Developer
+        time: 1997 - 2001
+        company: AST, (Brest, France)
+        details: |
+          Designer and developer on two applications
+          * Business management software in Delphi
+          * Fire safety management software for Alcatel Brest                                                                                        
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Cloud Architect
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Kubernetes 
         level: 98%
 
-      - name: Angular
+      - name: DevOps
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Web Architect
         level: 95%
 
       - name: Ruby on Rails
