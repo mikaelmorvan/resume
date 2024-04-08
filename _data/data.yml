@@ -145,6 +145,8 @@ experiences:
 
           - Kubernetes
           - Go
+          - Nats
+          - Docker
           - Pulumi
           - Github
 
