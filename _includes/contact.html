@@ -43,6 +43,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.youtube %}
+    <li class="youtube"><i class="fab fa-youtube"></i>
+      <a href="https://www.youtube.com/@{{ sidebar.youtube }}" target="_blank">{{ sidebar.youtube }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.xing %}
     <li class="xing"><i class="fab fa-xing"></i>
       <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
