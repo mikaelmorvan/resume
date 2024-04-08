@@ -120,8 +120,36 @@ career-profile:
 experiences:
     title: Experiences
     info:
+      - role: DevOps Expert
+        time: August 2023 - Present
+        company: Silbo (Rennes, France)
+        details: |
+          I'm helping Silbo move from Cloud Aws to Kubernetes hosted at OVH
+
+          Stages of my mission
+          - Audit of existing architecture
+
+          - Recommendation of a Kubernetes architecture for production (SaaS mode) and for On Premise.
+
+          - Recommendation of a scalable architecture through the introduction of a message bus (Nats)
+
+          - Go implementation of a high availability SFTP server for file reception
+
+          - Go implementation of a CLI for sending and consuming health data messages.
+
+          - Deployment of the new architecture on a Kubernetes cluster using Infra as Code (Pulumi).
+
+          - Automatic build of Docker images with Github Action (CI-CD)
+
+          *Technology used*
+
+          - Kubernetes
+          - Go
+          - Pulumi
+          - Github
+
       - role: R&D Manager
-        time: 2022 - Present
+        time: 2022 - July 2023
         company: Acklio (Rennes, France)
         details: |
           Full time mission in a startup in the field of IoT. Acklio provides a embeded SDK for IoT devices to compress data before sending them on Lpwan networks. Acklio also provides a cloud solution to manage devices and decompress data.
