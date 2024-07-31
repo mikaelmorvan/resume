@@ -122,7 +122,37 @@ experiences:
     title: Experiences
     info:
       - role: DevOps Expert
-        time: August 2023 - Present
+        time: June 2024 - Present
+        company: Vivalto Sante (Rennes, France)
+        details: |
+          I'm helping Vivalto Sante to deploy two Kubernetes clusters on their own datacenter.
+
+          Stages of my mission
+          - Audit of existing VM architecture
+
+          - Recommendation of a Kubernetes architecture for an Application and a Technical cluster.
+
+          - Train the teams on Kubernetes and deploy Rancher (RKE2) on both clusters.
+
+            - IP Loadbalancer with MetalLB
+            - File storage with NFS
+            - Block storage with Minio
+            - Traefik as Ingress Controller
+            - Use Operators for the deployment of MongoDB, Postgres, Redis
+
+          - Prepare the technical VM for the deployment of the Kubernetes cluster.
+
+          *Technology used*
+
+          - Kubernetes
+          - Rancher (RKE2)
+          - Docker
+          - Pulumi
+          - Github
+          - Infisical
+
+      - role: DevOps Expert
+        time: August 2023 - June 2024
         company: Silbo (Rennes, France)
         details: |
           I'm helping Silbo move from Cloud Aws to Kubernetes hosted at OVH
